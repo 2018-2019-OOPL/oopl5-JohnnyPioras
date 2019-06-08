@@ -1,10 +1,12 @@
 package pl.edu.ur.oopl5.stack;
 
-import java.util.EmptyStackException;   
-
 /**
  */
 public class Stack extends AbstractStack {
+
+    public Stack(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
     @Override
     public void push(int i) {

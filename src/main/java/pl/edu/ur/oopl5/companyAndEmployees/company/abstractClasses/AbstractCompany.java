@@ -6,7 +6,7 @@ import pl.edu.ur.oopl5.companyAndEmployees.employee.Employee;
  */
 public abstract class AbstractCompany {
 
-    private int n;
+    private final int n;
 
     public AbstractCompany(int n) {
         this.n = n;
